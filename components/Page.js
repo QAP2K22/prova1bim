@@ -25,7 +25,7 @@ const Page = (props) => {
         {props.children}
       </Container>
 
-      <footer style={{ width: '100%', height: "35px" }} className='bg-secondary text-white text-center bottom-0'>
+      <footer style={{ width: '100%', height: "35px" }} className='bg-secondary text-white text-center position-fixed bottom-0'>
         <p>Rodapé</p>
       </footer>
     </>
